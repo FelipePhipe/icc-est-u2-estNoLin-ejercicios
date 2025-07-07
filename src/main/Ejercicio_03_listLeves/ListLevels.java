@@ -31,8 +31,8 @@ public class ListLevels {
         return node;
     }
 
-    public List<LinkedList<Node>> listarNiveles() {
-        List<LinkedList<Node>> resultado = new ArrayList<>();
+    public List<List<Node>> listarNiveles() {
+        List<List<Node>> resultado = new ArrayList<>();
         if (root == null) return resultado;
 
         Queue<Node> cola = new LinkedList<>();
@@ -55,8 +55,8 @@ public class ListLevels {
     }
 
     public void imprimirNiveles() {
-        List<LinkedList<Node>> niveles = listarNiveles();
-        for (LinkedList<Node> nivel : niveles) {
+        List<List<Node>> niveles = listarNiveles();
+        for (List<Node> nivel : niveles) {
             for (Node nodo : nivel) {
                 System.out.print(nodo.getValue());
                 if (nivel.getLast() != nodo) {

@@ -185,3 +185,47 @@ Para contribuir a este proyecto, por favor crea un fork y envía una solicitud d
 
 - [PABLO TORRES] - Desarrollo inicial
 
+
+📌 Información General
+Título: Ejercicios de estructuras no lineales
+Asignatura: Estructura de Datos
+Carrera: Computación
+Estudiante: Felipe Parra
+Fecha: 06/07/2025
+Profesor: Ing. Pablo Torres
+🛠️ Descripción
+En este proyecto se realizan 4 ejercicios de Arboles binarios (BST)
+
+Ejercicio 1: 
+Se crea un metodo recursivo para la insercion de numeros en el arbol
+Y un metodo para mostrar el arbol el cual usa una linkedList de tipo Queue<Node> para poder ir imprimiendo en diferentes niveles el arbol
+
+
+Ejercicio 2:
+Se usa los mismos metodos de insercion y de mostrar el arbol del ejercicio 1 para crear el arbol. Para realizar lo que pide la orden, se crea un metodo para invertir el arbol, el cual realiza un intercambio de variables entre una variable temporal, el lado derecho e izquierdo del arbol, de esta manera se invierte el arbol y se muestra en pantalla el arbol original y el invertido
+
+Ejercicio 3:
+Usa el mismo metodo de creacion de arbol que los ejercicios anteriores
+Este ejercicio consiste en recorrer un árbol binario y guardar los nodos de cada nivel en listas enlazadas. Es decir, todos los nodos del primer nivel se guardan en una lista, los del segundo nivel en otra, y así.
+
+Para hacerlo, se recorre el árbol por niveles, y en cada nivel se agrupan los nodos en una lista enlazada. Al final, se obtiene una lista para cada nivel del árbol, lo que permite mostrar claramente cómo están organizados los nodos por niveles.
+
+
+Ejercicio 4:
+Usa el mismo metodo de creacion de arbol que los ejercicios anteriores
+En este ejercicio se debe encontrar la profundidad máxima de un árbol binario, es decir, cuántos niveles tiene desde la raíz hasta el hijo más lejano.
+
+Para hacerlo, se recorre el árbol de forma recursiva, comparando la profundidad del lado izquierdo y del lado derecho de cada nodo. Al final, se toma la mayor de esas profundidades y se suma 1 por cada nivel recorrido.
+
+El resultado es un número que representa qué tan profundo es el árbol.
+
+🚀 Ejecución
+Para ejecutar el proyecto:
+
+Compila el código:
+javac App.java
+Ejecuta la aplicación:
+java App
+🧑‍💻 Ejemplo de Salida
+
+![EJEMPLO DE SALIDA ]![](image.png)
